@@ -34,7 +34,7 @@ for child in result:
 driver = webdriver.Chrome()
 driver.get("https://web.whatsapp.com/") 
 
-# Replace the below string with Name of your whatsapp friends
+# Replace the below strings with Name of your targets on whatsapp
 targets = ["X","Y","Z"]
 hang = input("start?")
 
@@ -44,4 +44,4 @@ while 1:
         user.click()
         msg = random.choice(benefits) 
         sendmsg(msg)
-    time.sleep(3600)
+    time.sleep(3600) #wait 1 hour
